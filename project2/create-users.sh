@@ -13,6 +13,7 @@ check_root() {
 # EUID allows for more precise control over process permissions and align's with Linux security model.
 # -ne: stands for not equal
 # if EUID doesn't have root privilege, it's not running the code.
+# since creating a new user, must have root privilege
                                                                                                                                                                                                                         
 
 # Function to display usage info
@@ -82,4 +83,4 @@ if [ -z "$username" ] || [ -z "$shell" ]; then
 fi
 # check if required options are provided
 
-create_user "$username" "$shell" "$groups"
+create_user "$username" "$shell" "$groups" # create user with specific details
