@@ -32,3 +32,4 @@ install_packages() {
 
 check_root # call the check_root 
 install_packages # call the install_packages
+
