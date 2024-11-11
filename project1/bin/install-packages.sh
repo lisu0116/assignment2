@@ -13,7 +13,7 @@ check_root() {
 # EUID allows for more precise control over process permissions and align's with Linux security model.
 # -ne: stands for not equal
 # if EUID doesn't have root privilege, it's not running the code.
-# since creating a new user, must have root privilege
+
 
 # function to install packages
 install_packages() {
