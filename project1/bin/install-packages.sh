@@ -30,6 +30,6 @@ install_packages() {
     # https://wiki.archlinux.org/title/Pacman
 }
 
-check_root # call the check_root 
-install_packages # call the install_packages
+check_root # call the check_root function
+install_packages # call the install_packages function
 
