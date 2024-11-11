@@ -43,16 +43,12 @@ If having issues as using these scripts, some common problems and the solutions
 
 **Solution**: 
     - Ensuring the scripts are executable:
-
-        ```bash
         chmod +x <file-name>
         
 
     - Eusuring that running the scripts with `sudo`
-
-        ```bash
         sudo <file path>
-        ```
+        
 
 ### 2. Symbolic Links Error
 
