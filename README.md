@@ -89,6 +89,12 @@ If having issues as using these scripts, some common problems and the solutions
 
 **Solution**:
 - Ensuring the file directory that the scripts in
+    ```bash
+    pwd # it will show your current path
+
+    cd <directory path where the script in> # going into that directory
+    ./<filename>
+    ```
 
 
 ### General Trouble Shooting Tips
