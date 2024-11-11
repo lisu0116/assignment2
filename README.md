@@ -34,4 +34,8 @@ It includes setting a password, establishing group memeberships, and creating a 
     - Using with `sudo` command
     - e.g) `sudo ./assignment2/project2/create-users.sh -u <username> -s <path to shell> [-g <groupname>]`
 
+## Trouble Shooting
+If having issues as using these scripts, some common problems and the solutions
 
+### 1. Permission Denied Errors
+**problems**:
