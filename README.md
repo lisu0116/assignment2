@@ -46,7 +46,7 @@ If having issues as using these scripts, some common problems and the solutions
 
         ```bash
         chmod +x <file-name>
-        ```
+        
 
     - Eusuring that running the scripts with `sudo`
 
