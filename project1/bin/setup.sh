@@ -24,7 +24,7 @@ while getopts "is" opt;
 do
     case $opt in
     i) ./assignment2/project1/bin/install-packages.sh;;
-    s) ./assignment2/project1/bin/create-symlinks.sh
+    s) ./assignment2/project1/bin/create-symlinks.sh;;
     *) usage;;
     esac
 done
