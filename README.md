@@ -39,15 +39,16 @@ If having issues as using these scripts, some common problems and the solutions
 
 ### 1. Permission Denied Errors
 
-**Problem**: When running the scripts, see "Permission denied".
+**Problem**: When running the scripts, see "Permission denied"
 
 **Solution**: 
-    - Ensuring the scripts are executable:
-        chmod +x <file-name>
-        
-
-    - Eusuring that running the scripts with `sudo`
-        sudo <file path>
+- Ensuring the scripts are executable:
+    ```bash
+    chmod +x <file-name>```
+    
+- Eusuring that running the scripts with `sudo`
+    ```bash
+    sudo <file path>```
         
 
 ### 2. Symbolic Links Error
@@ -55,14 +56,12 @@ If having issues as using these scripts, some common problems and the solutions
 **Problems**: When running the scripts, fail to create symbolic links
 
 **Solution**:
-    - Checking if already having config directory, rewrite the code in create-symlinks.sh
-
+- Checking if already having config directory, rewrite the code in create-symlinks.sh
     ```bash
     ln -sf "$(pwd)<existing directory path>" <name of symbolic link>
     ```
 
-    - If a link already exists, removing it first
-
+- If a link already exists, removing it first
     ```bash
     rm ~/.config/<existing link>
     ```
@@ -72,14 +71,12 @@ If having issues as using these scripts, some common problems and the solutions
 **Problems**: When running the scripts, fail to create a new user
 
 **Solution**:
-    - Eusuring that running the scripts with `sudo`
-
+- Eusuring that running the scripts with `sudo`
     ```bash
     sudo <file path>
     ```
 
-    - Checking if username already exists
-
+- Checking if username already exists
     ```bash
     id username
     ```
@@ -89,7 +86,7 @@ If having issues as using these scripts, some common problems and the solutions
 **Problems**: When terminal says the script is not found
 
 **Solution**:
-    - Ensuring the file directory that the scripts in
+- Ensuring the file directory that the scripts in
 
 
 ### General Trouble Shooting Tips
